@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # Get Memory in use by LXC
 # By: Miguel Clara
@@ -10,7 +10,7 @@
 # The Script also lists the limits set on the LXC config files
 #
 
-LXC_CONFIG_PATH_AUTO='/etc/lxc/auto'
+LXC_CONFIG_PATH_AUTO='/etc/lxc/auto' # Adapt if needed, I prefer to list only the config in "auto"
 
 # Define some fancy colors
 txtrst=$(tput sgr0)		# text reset
